@@ -3,88 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Casper Emil Bjødstrup | Portfolio</title>
+    <meta
+      name="description"
+      content="Casper Emil Bjødstrup er IT-arkitekt og softwareudvikler med fokus på AI, RAG og robuste digitale løsninger."
+    />
+    <link rel="canonical" href="https://cbjoed.github.io/Portfolio/" />
+    <title>Casper Emil Bjødstrup | IT-arkitekt & udvikler</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1>Casper Emil Bjødstrup</h1>
-        <p class="subtitle">IT-Arkitekt & Softwareudvikler</p>
-        <p class="subtitle">
-          Christian X's Vej 76, 1, 16, 8260 Viby J · +45 71 70 18 93 ·
-          cbjoedstrup@gmail.com
-        </p>
-      </div>
+    <header class="site-header">
+      <nav class="container nav" aria-label="Primær navigation">
+        <a class="brand" href="./">C. E. Bjødstrup<span>.</span></a>
+        <div class="nav-links">
+          <a href="#projekter">Projekter</a>
+          <a href="#erfaring">Erfaring</a>
+          <a href="#kontakt">Kontakt</a>
+        </div>
+      </nav>
     </header>
 
-    <main class="container">
-      <section>
-        <h2>Personlig profil</h2>
-        <p>
-          Nyuddannet professionsbachelor i IT-arkitektur med en stærk passion
-          for generativ AI og intelligent systemarkitektur. Løsningsorienteret
-          med erfaring i både fullstack-udvikling og komplekst systemdesign.
-        </p>
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">IT-arkitekt & softwareudvikler · Aarhus</p>
+          <h1>Jeg bygger systemer, der gør kompleksitet <em>enkel.</em></h1>
+          <p class="intro">
+            Nyuddannet IT-arkitekt med praktisk erfaring i fullstack-udvikling
+            og generativ AI. Jeg omsætter uklare behov til løsninger, der er
+            nemme at forstå, bygge videre på og stole på.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#projekter">Se udvalgte projekter <span>↓</span></a>
+            <a class="text-link" href="mailto:cbjoedstrup@gmail.com">Lad os tale <span>↗</span></a>
+          </div>
+        </div>
+        <aside class="availability" aria-label="Profilstatus">
+          <span class="status-dot"></span>
+          <div>
+            <strong>Åben for muligheder</strong>
+            <p>Fast stilling · Aarhus / hybrid</p>
+          </div>
+        </aside>
+      </div>
       </section>
 
-      <section>
-        <h2>Udvalgte projekter</h2>
+      <section class="proof-bar">
+        <div class="container proof-items">
+          <div><strong>2026</strong><span>Professionsbachelor i IT-arkitektur</span></div>
+          <div><strong>RAG</strong><span>Model-agnostisk AI-arkitektur</span></div>
+          <div><strong>Fullstack</strong><span>Fra idé til fungerende produkt</span></div>
+        </div>
+      </section>
+
+      <section id="projekter" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / Udvalgt arbejde</p>
+          <h2>Projekter med noget på spil.</h2>
+        </div>
         <div class="project-grid">
           <article class="project-card">
-            <h3>SpeedTrap</h3>
-            <p class="muted">
-              Eksternt projekt hostet på GitHub Pages.
-            </p>
-            <a class="button" href="./projects/speedtrap.html"
-              >Se projekt-side</a
-            >
+            <div class="project-number">01</div>
+            <div>
+              <p class="project-type">Webapp · Live projekt</p>
+              <h3>SpeedTrap</h3>
+              <p class="muted">Et fokuseret projekt, der viser produktblik, frontend-håndværk og sans for en enkel brugeroplevelse.</p>
+              <div class="project-tags"><span>Frontend</span><span>UX</span><span>GitHub Pages</span></div>
+              <a class="project-link" href="https://cbjoed.github.io/SpeedTrap/">Åbn live projekt <span>↗</span></a>
+            </div>
+          </article>
+          <article class="project-card project-card--dark">
+            <div class="project-number">02</div>
+            <div>
+              <p class="project-type">Bachelorprojekt · Netic A/S</p>
+              <h3>Tilbudsassistent</h3>
+              <p class="muted">Model-agnostisk RAG-arkitektur til at automatisere tilbudsbesvarelser med kvalitet og sporbarhed i fokus.</p>
+              <div class="project-tags"><span>GenAI</span><span>RAG</span><span>Systemdesign</span></div>
+            </div>
           </article>
         </div>
       </section>
 
-      <section>
-        <h2>Erhvervserfaring</h2>
-        <ul>
-          <li>
-            <strong>Bachelorprojekt / Udvikler, Netic A/S (Feb 2026 – Jun
-              2026)</strong
-            >
-            – Design og udvikling af model-agnostisk RAG-arkitektur til
-            automatisering af tilbudsbesvarelser.
-          </li>
-          <li>
-            <strong
-              >Software Developer (Praktik), Morch Solutions ApS (Jan 2025 –
-              Mar 2025)</strong
-            >
-            – Fullstack-udvikling på EsportSammen i Scrum-team.
-          </li>
-        </ul>
+      <section id="erfaring" class="section container experience-section">
+        <div class="section-heading">
+          <p class="eyebrow">02 / Erfaring</p>
+          <h2>Teknik med blik for mennesker.</h2>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item"><span class="experience-year">2026</span><div><h3>Bachelorprojekt / Udvikler</h3><p>Netic A/S · Design og udvikling af model-agnostisk RAG-arkitektur til automatisering af tilbudsbesvarelser.</p></div><span class="arrow">↗</span></article>
+          <article class="experience-item"><span class="experience-year">2025</span><div><h3>Software Developer · Praktik</h3><p>Morch Solutions ApS · Fullstack-udvikling på EsportSammen i et agilt Scrum-team.</p></div><span class="arrow">↗</span></article>
+        </div>
       </section>
 
-      <section>
-        <h2>Uddannelse</h2>
-        <ul>
-          <li>
-            Professionsbachelor i IT-arkitektur, Erhvervsakademi Aarhus
-            (2023–2026)
-          </li>
-          <li>Højere Handelseksamen (HHX), ZBC (2018–2021)</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>IT & Kompetencer</h2>
-        <p>
-          <strong>Programmering & AI:</strong> Python, C#, Kotlin, GenAI/LLM,
-          RAG-arkitektur, MongoDB Atlas, vektordatabaser, fullstack.
-        </p>
-        <p>
-          <strong>Metoder & processer:</strong> SCRUM, agil projektledelse,
-          systemdesign, code review.
-        </p>
+      <section class="section skills-section container">
+        <div class="section-heading"><p class="eyebrow">03 / Værktøjskasse</p><h2>Det jeg arbejder bedst med.</h2></div>
+        <div class="skills"><span>Python</span><span>C#</span><span>Kotlin</span><span>GenAI / LLM</span><span>RAG-arkitektur</span><span>MongoDB Atlas</span><span>Vektordatabaser</span><span>Systemdesign</span><span>Scrum</span><span>Code review</span></div>
       </section>
     </main>
+
+    <footer id="kontakt" class="site-footer">
+      <div class="container footer-content">
+        <div><p class="eyebrow">Har du et interessant problem?</p><h2>Lad os bygge noget, der holder.</h2></div>
+        <a class="footer-email" href="mailto:cbjoedstrup@gmail.com">cbjoedstrup@gmail.com <span>↗</span></a>
+      </div>
+      <div class="container footer-meta"><span>Casper Emil Bjødstrup · Aarhus, DK</span><a href="tel:+4571701893">+45 71 70 18 93</a></div>
+    </footer>
   </body>
 </html>
