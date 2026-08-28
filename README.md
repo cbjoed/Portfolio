@@ -13,8 +13,8 @@ This repository contains a GitHub Pages portfolio homepage.
 
 The homepage is available from:
 
-- `https://cbjoed.github.io/Portfolio/`
+- `https://cbjoed.com/`
 
 The homepage links directly to the live SpeedTrap project:
 
-- `https://cbjoed.github.io/SpeedTrap/`
+- `https://cbjoed.com/SpeedTrap/`
