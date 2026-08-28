@@ -17,4 +17,4 @@ The homepage is available from:
 
 The homepage links directly to the live SpeedTrap project:
 
-- `https://cbjoed.com/SpeedTrap/`
+- `https://speed.cbjoed.com/`
