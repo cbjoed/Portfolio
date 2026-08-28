@@ -91,6 +91,15 @@ h3 { font-size: 1.65rem; margin-bottom: 8px; }
 .experience-item p { color: var(--muted); font-size: .82rem; margin: 0; }
 .experience-year { width: 55px; color: #809d00; }
 .arrow { font-size: 1.4rem; }
+.education-section { border-top: 1px solid var(--line); padding-bottom: 80px; }
+.education-layout { display: grid; grid-template-columns: 1.2fr .8fr; gap: 80px; align-items: start; }
+.education-main { max-width: 620px; }
+.education-period { color: #809d00; font-family: "DM Mono", monospace; font-size: .68rem; margin: 0 0 18px; }
+.education-main h3 { font-size: 1.8rem; margin-bottom: 12px; }
+.education-facts { border-top: 1px solid var(--line); }
+.education-facts div { display: flex; gap: 18px; align-items: baseline; padding: 17px 0; border-bottom: 1px solid var(--line); }
+.education-facts strong { color: #809d00; font-family: "DM Mono", monospace; font-size: .68rem; }
+.education-facts span { font-size: .82rem; font-weight: 700; }
 .skills-section { padding-top: 0; }
 .skills { display: flex; flex-wrap: wrap; gap: 9px; }
 .skills span { padding: 10px 13px; color: var(--ink); background: var(--cream); }
@@ -113,6 +122,7 @@ h3 { font-size: 1.65rem; margin-bottom: 8px; }
   .project-grid { grid-template-columns: 1fr; }
   .project-card { min-height: 320px; padding: 22px; }
   .project-type { margin-bottom: 32px; }
+  .education-layout { grid-template-columns: 1fr; gap: 44px; }
   .footer-content { display: block; padding-bottom: 75px; }
   .footer-email { display: inline-block; margin-top: 30px; }
   .footer-meta { align-items: flex-start; flex-direction: column; gap: 8px; }
