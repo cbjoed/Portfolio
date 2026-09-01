@@ -9,33 +9,41 @@
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
-        <h1>SpeedTrap</h1>
-        <p class="subtitle">Projektoversigt</p>
-      </div>
+      <nav class="container nav" aria-label="Primary navigation">
+        <a class="brand" href="../">C. E. Bjødstrup<span>.</span></a>
+        <div class="nav-links">
+          <button id="lang-switcher" class="lang-switcher" aria-label="Toggle language" title="Toggle language"></button>
+        </div>
+      </nav>
     </header>
 
     <main class="container legacy-page">
       <section>
-        <p>
-          Dette projekt er hostet eksternt på GitHub Pages.
+        <h1>SpeedTrap</h1>
+        <p class="project-subtitle">Project Overview</p>
+      </section>
+
+      <section>
+        <p id="speedtrap-desc">
+          This project is hosted externally on GitHub Pages.
         </p>
         <div class="project-links">
           <a class="button" href="https://speed.cbjoed.com/"
-            >Åbn SpeedTrap</a
+            >Open SpeedTrap</a
           >
           <a class="button secondary" href="https://github.com/cbjoed/SpeedTrap"
-            >Se på GitHub</a
+            >View on GitHub</a
           >
         </div>
       </section>
 
       <section>
-        <h2>Navigation</h2>
+        <h2 id="nav-label">Navigation</h2>
         <a class="button secondary top-nav" href="../index.html"
-          >← Tilbage til forside</a
+          id="back-link">← Back to home</a
         >
       </section>
     </main>
+    <script src="../lang.js"></script>
   </body>
 </html>

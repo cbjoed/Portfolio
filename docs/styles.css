@@ -42,6 +42,8 @@ body {
 .nav-links { gap: 32px; }
 .nav-links a, .text-link { color: var(--ink); font-size: .8rem; font-weight: 700; text-decoration: none; }
 .nav-links a:hover, .text-link:hover, .project-link:hover, .footer-email:hover { opacity: .65; }
+.lang-switcher { background: none; border: 1px solid var(--line); color: var(--ink); font-family: "DM Mono", monospace; font-size: .75rem; font-weight: 700; padding: 6px 10px; cursor: pointer; transition: all .2s ease; letter-spacing: .06em; }
+.lang-switcher:hover { background: var(--lime); border-color: var(--lime); }
 
 h1, h2, h3 { letter-spacing: -.055em; margin-top: 0; }
 h1 { max-width: 800px; font-size: clamp(3.2rem, 7vw, 6.6rem); line-height: .98; margin-bottom: 30px; }
