@@ -8,7 +8,7 @@ const translations = {
 
     // Hero
     "hero.eyebrow": "IT Architect & Software Developer · Aarhus",
-    "hero.title": "I build systems that make complexity <em>simple.</em>",
+    "hero.title": "IT Architect & Software Developer.",
     "hero.intro":
       "Recently graduated professional bachelor in IT architecture with hands-on experience in fullstack development and generative AI. I turn unclear needs into solutions that are easy to understand, build upon, and trust.",
     "hero.button": "Explore featured projects <span>↓</span>",
@@ -78,7 +78,7 @@ const translations = {
 
     // Footer
     "footer.question": "Have an interesting problem?",
-    "footer.title": "Let's build something that lasts.",
+    "footer.title": "Get in touch.",
     "footer.location": "Casper Emil Bjødstrup · Aarhus, DK",
   },
   da: {
@@ -90,7 +90,7 @@ const translations = {
 
     // Hero
     "hero.eyebrow": "IT-arkitekt & softwareudvikler · Aarhus",
-    "hero.title": "Jeg bygger systemer, der gør kompleksitet <em>enkel.</em>",
+    "hero.title": "IT-arkitekt & softwareudvikler.",
     "hero.intro":
       "Nyuddannet professionsbachelor i IT-arkitektur med praktisk erfaring i fullstack-udvikling og generativ AI. Jeg omsætter uklare behov til løsninger, der er nemme at forstå, bygge videre på og stole på.",
     "hero.button": "Se udvalgte projekter <span>↓</span>",
@@ -160,7 +160,7 @@ const translations = {
 
     // Footer
     "footer.question": "Har du et interessant problem?",
-    "footer.title": "Lad os bygge noget, der holder.",
+    "footer.title": "Kontakt mig.",
     "footer.location": "Casper Emil Bjødstrup · Aarhus, DK",
   },
 };
