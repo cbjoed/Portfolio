@@ -35,12 +35,6 @@ const translations = {
     "tilbud.desc":
       "Model-agnostic RAG architecture for automating proposal responses with quality and traceability in focus.",
     "tilbud.link": "Talk to me about this project <span>↗</span>",
-    "gambling.type": "Webapp · AI Bot",
-    "gambling.title": "Gambling Bot",
-    "gambling.desc":
-      "An interactive AI bot designed to demonstrate advanced conversation flow architecture and user experience.",
-    "gambling.link": "Open live project <span>↗</span>",
-    "gambling.github": "View on GitHub <span>↗</span>",
 
     // Experience section
     "experience.eyebrow": "02 / Experience",
@@ -123,12 +117,6 @@ const translations = {
     "tilbud.desc":
       "Model-agnostisk RAG-arkitektur til at automatisere tilbudsbesvarelser med kvalitet og sporbarhed i fokus.",
     "tilbud.link": "Tal med mig om projektet <span>↗</span>",
-    "gambling.type": "Webapp · AI Bot",
-    "gambling.title": "Gambling Bot",
-    "gambling.desc":
-      "En interaktiv AI-bot designet til at demonstrere avanceret samtaleflowarkitektur og brugeroplevelse.",
-    "gambling.link": "Åbn live projekt <span>↗</span>",
-    "gambling.github": "Se på GitHub <span>↗</span>",
 
     // Experience section
     "experience.eyebrow": "02 / Erfaring",
@@ -284,15 +272,6 @@ class LanguageManager {
     card2.querySelector("h3").textContent = this.t("tilbud.title");
     card2.querySelector(".muted").textContent = this.t("tilbud.desc");
     card2.querySelector(".project-link").innerHTML = this.t("tilbud.link");
-
-    // Gambling Bot (card 3)
-    const card3 = projectCards[2];
-    card3.querySelector(".project-type").textContent = this.t("gambling.type");
-    card3.querySelector("h3").textContent = this.t("gambling.title");
-    card3.querySelector(".muted").textContent = this.t("gambling.desc");
-    const card3Links = card3.querySelectorAll(".project-link");
-    card3Links[0].innerHTML = this.t("gambling.link");
-    card3Links[1].innerHTML = this.t("gambling.github");
 
     // Update experience section
     const expHeading = document.querySelector(
