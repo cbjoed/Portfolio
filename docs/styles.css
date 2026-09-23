@@ -58,7 +58,7 @@ h3 { font-size: 1.65rem; margin-bottom: 8px; }
 .hero-actions { gap: 28px; margin-top: 42px; }
 .button { display: inline-flex; align-items: center; gap: 28px; padding: 15px 20px; background: var(--ink); color: var(--cream); font-size: .8rem; font-weight: 700; text-decoration: none; transition: transform .2s ease; }
 .button:hover { transform: translateY(-3px); }
-.button span, .text-link span, .project-link span, .footer-email span { font-size: 1.1rem; }
+.link-icon { width: .85em; height: .85em; margin-left: .28em; vertical-align: -.08em; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .text-link { border-bottom: 1px solid var(--ink); padding-bottom: 3px; }
 .availability { align-self: flex-end; gap: 12px; min-width: 230px; padding: 16px; border: 1px solid var(--line); background: rgba(251, 250, 246, .55); }
 .availability strong { display: block; font-size: .72rem; }
@@ -92,7 +92,7 @@ h3 { font-size: 1.65rem; margin-bottom: 8px; }
 .experience-item h3 { font-size: 1.15rem; margin: 0 0 5px; letter-spacing: -.03em; }
 .experience-item p { color: var(--muted); font-size: .82rem; margin: 0; }
 .experience-year { width: 55px; color: #809d00; }
-.arrow { font-size: 1.4rem; }
+.arrow { width: 1.4rem; height: 1.4rem; margin-left: 0; }
 .education-section { border-top: 1px solid var(--line); padding-bottom: 80px; }
 .education-layout { display: grid; grid-template-columns: 1.2fr .8fr; gap: 80px; align-items: start; }
 .education-main { max-width: 620px; }
@@ -104,7 +104,7 @@ h3 { font-size: 1.65rem; margin-bottom: 8px; }
 .education-facts span { font-size: .82rem; font-weight: 700; }
 .skills-section { padding-top: 0; }
 .skills { display: flex; flex-wrap: wrap; gap: 9px; }
-.skills span { padding: 10px 13px; color: var(--ink); background: var(--cream); }
+.skills span { width: fit-content; padding: 10px 13px; color: var(--ink); background: var(--cream); }
 .site-footer { padding: 85px 0 28px; background: var(--ink); color: var(--cream); }
 .footer-content { display: flex; align-items: end; justify-content: space-between; gap: 40px; padding-bottom: 110px; }
 .footer-content h2 { max-width: 610px; margin: 0; }

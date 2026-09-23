@@ -12,7 +12,7 @@ const translations = {
     "hero.intro":
       "Recently graduated professional bachelor in IT architecture with hands-on experience in fullstack development and generative AI. I turn unclear needs into solutions that are easy to understand, build upon, and trust.",
     "hero.button": "Explore featured projects <span>↓</span>",
-    "hero.cta": "Let's talk <span>↗</span>",
+    "hero.cta": "Let's talk <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
     "hero.availability": "Open to opportunities",
     "hero.availability-detail": "Full-time · Aarhus / hybrid",
 
@@ -28,13 +28,13 @@ const translations = {
     "speedtrap.title": "SpeedTrap",
     "speedtrap.desc":
       "A focused project showcasing product sense, frontend craftsmanship, and attention to user experience.",
-    "speedtrap.link": "Open live project <span>↗</span>",
-    "speedtrap.github": "View on GitHub <span>↗</span>",
+    "speedtrap.link": "Open live project <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
+    "speedtrap.github": "View on GitHub <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
     "tilbud.type": "Bachelor Project · Netic A/S",
     "tilbud.title": "Proposal Assistant",
     "tilbud.desc":
       "Model-agnostic RAG architecture for automating proposal responses with quality and traceability in focus.",
-    "tilbud.link": "Talk to me about this project <span>↗</span>",
+    "tilbud.link": "Talk to me about this project <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
 
     // Experience section
     "experience.eyebrow": "02 / Experience",
@@ -59,7 +59,7 @@ const translations = {
     "edu.degree": "Professional Bachelor in IT Architecture",
     "edu.desc":
       "A practice-oriented education in program development, database design, system architecture, and digital business development. The program trains the ability to connect business, users, data, and technology.",
-    "edu.link": "Learn about the program <span>↗</span>",
+    "edu.link": "Learn about the program <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
     "edu.fact1": "Business Architecture",
     "edu.fact2": "Information Systems",
     "edu.fact3": "Technology Architecture",
@@ -94,7 +94,7 @@ const translations = {
     "hero.intro":
       "Nyuddannet professionsbachelor i IT-arkitektur med praktisk erfaring i fullstack-udvikling og generativ AI. Jeg omsætter uklare behov til løsninger, der er nemme at forstå, bygge videre på og stole på.",
     "hero.button": "Se udvalgte projekter <span>↓</span>",
-    "hero.cta": "Lad os tale <span>↗</span>",
+    "hero.cta": "Lad os tale <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
     "hero.availability": "Åben for muligheder",
     "hero.availability-detail": "Fast stilling · Aarhus / hybrid",
 
@@ -110,13 +110,13 @@ const translations = {
     "speedtrap.title": "SpeedTrap",
     "speedtrap.desc":
       "Et fokuseret projekt, der viser produktblik, frontend-håndværk og sans for en enkel brugeroplevelse.",
-    "speedtrap.link": "Åbn live projekt <span>↗</span>",
-    "speedtrap.github": "Se på GitHub <span>↗</span>",
+    "speedtrap.link": "Åbn live projekt <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
+    "speedtrap.github": "Se på GitHub <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
     "tilbud.type": "Bachelorprojekt · Netic A/S",
     "tilbud.title": "Tilbudsassistent",
     "tilbud.desc":
       "Model-agnostisk RAG-arkitektur til at automatisere tilbudsbesvarelser med kvalitet og sporbarhed i fokus.",
-    "tilbud.link": "Tal med mig om projektet <span>↗</span>",
+    "tilbud.link": "Tal med mig om projektet <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
 
     // Experience section
     "experience.eyebrow": "02 / Erfaring",
@@ -141,7 +141,7 @@ const translations = {
     "edu.degree": "Professionsbachelor i IT-arkitektur",
     "edu.desc":
       "En praksisnær uddannelse i programudvikling, databasedesign, systemarkitektur og digital forretningsudvikling. Uddannelsen træner evnen til at binde forretning, brugere, data og teknologi sammen.",
-    "edu.link": "Læs om uddannelsen <span>↗</span>",
+    "edu.link": "Læs om uddannelsen <svg class=\"link-icon\" aria-hidden=\"true\" viewBox=\"0 0 14 14\"><path d=\"M4 10 10 4M5 4h5v5\" /></svg>",
     "edu.fact1": "Forretningsarkitektur",
     "edu.fact2": "Informationssystemer",
     "edu.fact3": "Teknologisk arkitektur",
